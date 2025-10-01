@@ -1,60 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - The Tax53 Network</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="wwwroot/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="wwwroot/MvcMovie.styles.css" asp-append-version="true" />
+<meta charset="utf-8">
+<title>Home - The Tax53 Network</title>
+	<link href="CSS/HomePage.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">DT53</a> <!--TODO: Replace this with an icon instead-->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About Me</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class="text-center">
-			<h1 class="display-4">Welcome</h1>
-			<p>the Tax53 network</p>
-			<img src="wwwroot/imgs/underconstraction-page.gif" />
-		</div>
-    </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - Site by Sabarieswar V (Dreariest Tax 53) - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-        <div class="container">
-            <p>
-            <a href="https://www.linkedin.com/in/sabarieswar-vimal-74496523a/">LinkedIn</a>
-              |  
-            <a href="https://bsky.app/profile/dtax53.bsky.social">Bluesky</a>
-              |  
-            <a href="https://github.com/DTax53">Github</a>
-            </p>
-        </div>
-    </footer>
-    <script src="wwwroot/lib/jquery/dist/jquery.min.js"></script>
-    <script src="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="wwwroot/js/site.js" asp-append-version="true"></script>
+<body>
+	<header>
+		<nav id="mainnav">
+			<ul>
+				<li><a>Home</a></li>
+				<li><a href="portfolio.html">Portfolio</a></li>
+				<li><a>Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<img id="logo" src="Images/logo.png" alt="Logo">
+	<section id="welcome">
+		<div class="sidenav">
+			<div class="marquee-wrapper">
+        		<div class="marquee">
+            		<span>full-stack dev • engineering • modelling • analysis • ML • </span>
+            		<span>full-stack dev • engineering • modelling • analysis • ML • </span>
+					<span>full-stack dev • engineering • modelling • analysis • ML • </span>
+        		</div>
+    		</div>
+		</div>
+
+		<div class="main">
+			<h2>It's me, Sab!</h2>
+			<p>I’m a 12th grade student who’s really passionate about technology and innovation. I have experience with programming, AI, and a bit of product design, and I also understand the basics of project management and tools like Git. I enjoy applying my skills to solve real-world problems and working in environments where I can help build practical solutions. I’m detail-oriented, work well on my own, and collaborate easily with others. I’m looking for opportunities to grow my technical skills and contribute to exciting, innovative projects.</p>
+		</div>
+	</section>
 </body>
 </html>
