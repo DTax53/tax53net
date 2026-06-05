@@ -245,6 +245,15 @@
         opacity: 0.5; 
     }
 
+    .project-icon {
+        height: 28px;
+        width: auto;
+        object-fit: contain;
+        margin-bottom: 1rem;
+        display: block;
+        opacity: 0.75;
+    }
+
     /* SKILLS */
     #skills {
         padding: 96px 0;
