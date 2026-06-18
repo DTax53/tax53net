@@ -181,6 +181,15 @@
     }
 
     /* PROJECTS */
+    .category-toggle.collapsed .toggle-icon {
+  transform: rotate(-90deg) !important;
+}
+
+.toggle-icon {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
     #projects {
         padding: 96px 0;
         background: var(--bg-soft);
