@@ -181,8 +181,8 @@
     }
 
     /* PROJECTS */
-    .category-toggle.collapsed .toggle-icon {
-  transform: rotate(-90deg) !important;
+#projects .category-toggle.collapsed .toggle-icon {
+  transform: rotate(-90deg);
 }
 
 .toggle-icon {
