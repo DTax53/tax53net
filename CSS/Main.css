@@ -188,6 +188,7 @@
 .toggle-icon {
   transition: transform 0.2s ease;
   display: inline-block;
+  font-size: clamp(2.8rem, 3.5vw, 3.8rem);
 }
 
     #projects {
