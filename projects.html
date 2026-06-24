@@ -28,6 +28,7 @@
           <li class="nav-item"><a class="nav-link" href="/projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="/research">Articles</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item"><a class="nav-link" href="/vital-forces">Vital Forces</a></li>
         </ul>
       </div>
     </div>
@@ -47,16 +48,21 @@
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects">
-    <div class="container">
-      <div class="row mb-5 fade-up">
-        <div class="col-lg-6">
-          <h2>Capstone projects</h2>
-        </div>
-        <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
-          <p class="text-muted" style="font-size:0.9rem; line-height:1.7">The projects I made for the online courses I took that had capstones.</p>
-        </div>
+<section id="projects">
+  <div class="container">
+
+    <!-- Capstone Projects -->
+    <div class="row mb-3 fade-up">
+      <div class="col-lg-6">
+        <h2 class="category-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#capstone-projects">
+          Capstone projects <span class="toggle-icon">▾</span>
+        </h2>
       </div>
+      <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
+        <p class="text-muted" style="font-size:0.9rem; line-height:1.7">The projects I made for the online courses I took that had capstones.</p>
+      </div>
+    </div>
+    <div class="collapse mb-5" id="capstone-projects">
       <div class="row g-4">
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
@@ -77,14 +83,20 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5 fade-up">
-        <div class="col-lg-6">
-          <h2>Kaggle submissions</h2>
-        </div>
-        <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
-          <p class="text-muted" style="font-size:0.9rem; line-height:1.7">The projects I made for Kaggle competitions I enrolled in. Just started out on this branch.</p>
-        </div>
+    </div>
+
+    <!-- Kaggle Submissions -->
+    <div class="row mb-3 fade-up">
+      <div class="col-lg-6">
+        <h2 class="category-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#kaggle-projects">
+          Kaggle submissions <span class="toggle-icon">▾</span>
+        </h2>
       </div>
+      <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
+        <p class="text-muted" style="font-size:0.9rem; line-height:1.7">The projects I made for Kaggle competitions I enrolled in. Just started out on this branch.</p>
+      </div>
+    </div>
+    <div class="collapse mb-5" id="kaggle-projects">
       <div class="row g-4">
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
@@ -95,21 +107,27 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5 fade-up">
-        <div class="col-lg-6">
-          <h2>Hackathon projects</h2>
-        </div>
-        <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
-          <p class="text-muted" style="font-size:0.9rem; line-height:1.7">Projects I made for hackathons.</p>
-        </div>
+    </div>
+
+    <!-- Hackathon Projects -->
+    <div class="row mb-3 fade-up">
+      <div class="col-lg-6">
+        <h2 class="category-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#hackathon-projects">
+          Hackathon projects <span class="toggle-icon">▾</span>
+        </h2>
       </div>
+      <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
+        <p class="text-muted" style="font-size:0.9rem; line-height:1.7">Projects I made for hackathons.</p>
+      </div>
+    </div>
+    <div class="collapse mb-5" id="hackathon-projects">
       <div class="row g-4">
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
             <div class="d-flex gap-2 mb-3">
-  <img src="Images/otomatiks.jpg" alt="Otomatiks" class="project-icon">
-  <img src="Images/robotica.png" alt="Robotica" class="project-icon">
-</div>
+              <img src="Images/otomatiks.jpg" alt="Otomatiks" class="project-icon">
+              <img src="Images/robotica.png" alt="Robotica" class="project-icon">
+            </div>
             <h3>SafeStrider</h3>
             <p>A smart navigation assist belt designed for the visually impaired and blind.</p>
             <p>Winner ("Champion") at Otomatiks Robotica 2025 held at VIT Chennai among 133+ schools.</p>
@@ -118,8 +136,10 @@
         </div>
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
-            <img src="Images/sharktanksv.png" alt="Shark Tank @SV" class="project-icon">
-            <h3>Kino-Volta (aka DynaVolta)</h3>
+            <div class="project-card-header">
+              <img src="Images/sharktanksv.png" alt="Shark Tank @SV" class="project-icon">
+              <h3>Kino-Volta (aka DynaVolta)</h3>
+            </div>
             <p>A tile, that generates electricity. Inspired by the meme caption about power generating tiles in Shibuya Station.</p>
             <p>Winner at Shark Tank @SV 2024 (held at Srimati Indira Gandhi College), and finalist at Shiv Nadar University EduQuest ProjectX 2026.</p>
             <a href="https://www.canva.com/design/DAGiX0TXbfk/q-BfDWd2Gt1IqQ6Bk-1gJA/view" target="_blank" class="project-link">Presentation →</a>
@@ -136,14 +156,20 @@
           </div>
         </div>
       </div>
-      <div class="row mb-5 fade-up">
-        <div class="col-lg-6">
-          <h2>Software projects</h2>
-        </div>
-        <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
-          <p class="text-muted" style="font-size:0.9rem; line-height:1.7">Software and video games I made. WIP projects included.</p>
-        </div>
+    </div>
+
+    <!-- Software Projects -->
+    <div class="row mb-3 fade-up">
+      <div class="col-lg-6">
+        <h2 class="category-toggle collapsed" data-bs-toggle="collapse" data-bs-target="#software-projects">
+          Software projects <span class="toggle-icon">▾</span>
+        </h2>
       </div>
+      <div class="col-lg-4 offset-lg-2 d-flex align-items-end">
+        <p class="text-muted" style="font-size:0.9rem; line-height:1.7">Software and video games I made. WIP projects included.</p>
+      </div>
+    </div>
+    <div class="collapse mb-5" id="software-projects">
       <div class="row g-4">
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
@@ -163,8 +189,10 @@
         </div>
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
-            <img src="Images/vitalforces.png" alt="Vital Forces" class="project-icon">
-            <h3>Vital Forces</h3>
+            <div class="project-card-header">
+              <img src="Images/vitalforces.png" alt="Vital Forces" class="project-icon">
+              <h3>Vital Forces</h3>
+            </div>
             <p>An online multiplayer FPS game in the online Lego-like MMO, ROBLOX. Project initially made on a whim by myself, now a group project with a few online pals of mine. Currently undergoing a revamp.</p>
             <a href="https://trello.com/b/uRVOW26k/vital-forces-2" target="_blank" class="project-link">Roadmap →</a>
             <a href="https://d.tax53.net/vital-forces" target="_blank" class="project-link">Vital Forces Site →</a>
@@ -180,15 +208,16 @@
         </div>
         <div class="col-md-6 col-lg-4 fade-up">
           <div class="project-card">
-            <span class="project-tag">Early projects</span>
-            <h3>My Scratch Projects</h3>
-            <p>A collection of my old Scratch projects from when I was in primary school.</p>
+            <span class="project-tag">Gaming</span>
+            <h3>Scratch Projects</h3>
+            <p>Various projects created using the Scratch programming language.</p>
             <a href="https://scratch.mit.edu/users/Sabarieswar" target="_blank" class="project-link">Projects →</a>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- CONTACT -->
   <section id="contact">

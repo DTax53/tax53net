@@ -194,6 +194,16 @@
     }
 
     /* PROJECTS */
+#projects .category-toggle.collapsed .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.toggle-icon {
+  transition: transform 0.2s ease;
+  display: inline-block;
+  font-size: clamp(2.8rem, 3.5vw, 3.8rem);
+}
+
     #projects {
         padding: 96px 0;
         background: var(--bg-soft);
@@ -265,6 +275,21 @@
         display: block;
         opacity: 0.75;
     }
+
+    .project-card-header {
+        display: flex;
+        align-items: center;
+        gap: 0.6rem;
+        margin-bottom: 0.6rem;
+    }
+
+.project-card-header .project-icon {
+  margin-bottom: 0;
+}
+
+.project-card-header h3 {
+  margin-bottom: 0;
+}
 
     /* SKILLS */
     #skills {
