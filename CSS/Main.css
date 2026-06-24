@@ -141,7 +141,7 @@
 }
 
 .hero-badges img {
-  height: 48px;
+  height: 10%;
   width: auto;
   object-fit: contain;
 }
