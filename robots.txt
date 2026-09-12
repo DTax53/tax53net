@@ -1,0 +1,6 @@
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Point search engines directly to your sitemap
+Sitemap: https://tax53.net
