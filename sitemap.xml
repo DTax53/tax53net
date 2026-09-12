@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
+  <url>
+    <loc>https://tax53.net</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://tax53.net/projects</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tax53.net/specializations</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tax53.net/research</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://tax53.net/vital-forces</loc>
+    <priority>0.7</priority>
+  </url>
+</urlset>
